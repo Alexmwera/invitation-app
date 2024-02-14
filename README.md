@@ -1,4 +1,6 @@
-<img src="logo.png" alt="Celebration Management System Logo" width="200" height="200">
+<div style="text-align:center; width:100%; margin 1px auto;">
+    <img src="logo.png" alt="Celebration Management System Logo" width="200" height="200">
+</div>
 
 # Celebration Management System
 
