@@ -1,4 +1,4 @@
-![Celebration Management System Logo](logo.png)
+<img src="logo.png" alt="Celebration Management System Logo" width="200" height="200">
 
 # Celebration Management System
 
