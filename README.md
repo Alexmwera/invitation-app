@@ -1,66 +1,47 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+![Celebration Management System Logo](logo.png)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Celebration Management System
 
-## About Laravel
+## Overview
+The Celebration Management System is a web-based application designed to streamline the process of managing invitations and contributions for various celebrations such as weddings, birthdays, ceremonies, and other events. The system allows event organizers to create events, send out invitations, track guest RSVPs, manage contributions, and more.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Features
+- Create and manage events: Event organizers can create new events, specify event details such as date, location, and description, and manage the guest list.
+- Send invitations: The system generates unique invitation codes for each event and allows organizers to send out invitations to guests via email.
+- RSVP management: Guests can RSVP to invitation
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# Celebration Management System
 
-## Learning Laravel
+## Overview
+The Celebration Management System is a web-based application designed to streamline the process of managing invitations and contributions for various celebrations such as weddings, birthdays, ceremonies, and other events. The system allows event organizers to create events, send out invitations, track guest RSVPs, manage contributions, and more.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Features
+- Create and manage events: Event organizers can create new events, specify event details such as date, location, and description, and manage the guest list.
+- Send invitations: The system generates unique invitation codes for each event and allows organizers to send out invitations to guests via email.
+- RSVP management: Guests can RSVP to invitations and indicate whether they will be attending the event.
+- Contribution tracking: Guests can contribute funds towards the event, and organizers can track contributions and manage payments.
+- User authentication: Secure user authentication system to ensure only authorized users can access the system.
+- Role-based access control: Different user roles such as event organizer and guest with different permissions and access levels.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Technologies Used
+- Laravel: PHP web framework for backend development.
+- MySQL: Relational database management system for storing data.
+- HTML/CSS/JavaScript: Frontend technologies for building the user interface.
+- Bootstrap: Frontend framework for responsive and mobile-friendly design.
+- Git: Version control system for managing project source code.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## Getting Started
+To get started with the Celebration Management System, follow these steps:
+1. Clone the repository to your local machine: `git clone https://github.com/Alexmwera/invitation-app`
+2. Install dependencies: `composer install && npm install`
+3. Configure the database connection in the `.env` file.
+4. Run migrations to create the database schema: `php artisan migrate`
+5. Start the development server: `php artisan serve`
+6. Access the application in your web browser: `http://localhost:8000`
 
 ## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Contributions to the Celebration Management System are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](LICENSE).
